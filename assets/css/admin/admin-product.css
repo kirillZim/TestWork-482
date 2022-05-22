@@ -1,0 +1,55 @@
+#my_custom_product_data {display: none;}
+#my_custom_product_data .image img {
+    display: block;
+    margin-bottom: 10px;
+}
+table.wp-list-table td.column-thumbnail img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    vertical-align: middle;
+}
+table.wp-list-table td.column-thumbnail{
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+table.wp-list-table .column-thumbnail {
+    width: 52px;
+    text-align: center;
+    white-space: nowrap;
+}
+body.post-type-product #publishing-action {
+    display: none;
+}
+body.post-type-product #delete-action {
+    line-height: 1.307692;
+}
+
+#publishing-save-product-ajax {
+    text-align: right;
+    float: right;
+    line-height: 1.9;
+    margin-top: 20px;
+}
+#publishing-save-product-ajax button {
+    min-height: 32px;
+    line-height: 2.30769231;
+    padding: 0 12px;
+    background: #2271b1;
+    border: 1px solid #2271b1;
+    border-radius: 3px;
+    color: #fff;
+    vertical-align: top;
+    float: right;
+    cursor: pointer;
+    margin-left: 5px;
+}
+#submitbox-reset-custom-tab {
+    color: #b32d2e;
+    line-height: 2.30769231;
+    text-decoration: underline;
+    cursor: pointer;
+}
